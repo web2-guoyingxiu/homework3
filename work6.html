@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+		<title></title>
+	</head>
+	<body>
+		<table border="0" width="1300">	
+		<tr background="body.png">
+			<td><img src="bg_chs.png" width="1300" height="109"/></td>
+		</tr>
+		<tr>
+			<td>
+				<form action="" method="post">
+			<h2>注册账号</h2>
+			<label for="inp1">昵称  </label>  <input type="text" id="inp1" value="kxxw" required="required" pattern="[-\w\u4E00-\u9FA5]{4,10}"/>  长度为4-10个字符 <br /><br />
+			<label for="inp2">密码  </label>   <input type="password" id="inp2" value=""  required="required" pattern="[\dA-Za-z]{6,16}"/>  长度为6-16个字符<br /><br />
+			<label for="inp3">确认密码 </label>   <input type="password"  id="inp3" value="" required="required" pattern="[\dA-Za-z]{6,16}"/>  长度为6-16个字符<br /><br />
+		
+			  <label for="inp4">手机号码 </label>  <input type="text" id="inp4" required="required" pattern="1[34578]\d{9}"/> 长度为11位，以13|5|7|8开头<br /><br />
+			  <label for="inp5">邮箱 </label>  <input type="email" id="inp5"  required="required" pattern="\w+@\w+(\.[a-z]{2,4}){1,2}"/> 
+			<br /><br />
+			 <label for="inp6">年龄  </label><input type="text" id="inp6"  required="required" pattern="\d|[1-9]\d|1[0-2]\d" /> 
+			<br /><br />
+			<input type="image" src="btn.bmp"/>
+		</form>
+			</td>
+		</tr>
+		
+		</table>
+	</body>
+</html>
